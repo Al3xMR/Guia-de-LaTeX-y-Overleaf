@@ -89,7 +89,7 @@ Hemos agregado un titulo, autor y fecha a nuestro primer documento!
 
 Este ejemplo produce el siguiente archivo saliente:
 
-<div align="center"><img src="https://github.com/Al3xMR/Guia_LaTeX-Overleaf/blob/main/images/Untitled.jpeg" width=500px></div>
+<div align="center"><img src="https://github.com/Al3xMR/Guia_LaTeX-Overleaf/blob/main/images/imagen1.jpeg" width=500px></div>
 
 
 # Añadiendo comentarios
@@ -161,7 +161,7 @@ Hay una imagen de una galaxia aqui arriba.
 
 Este ejemplo produce la siguiente salida:
 
-<div align="center"><img src="https://github.com/Al3xMR/Guia_LaTeX-Overleaf/blob/main/images/Untitled.png" width=500px></div>
+<div align="center"><img src="https://github.com/Al3xMR/Guia_LaTeX-Overleaf/blob/main/images/imagen2.png" width=500px></div>
 
 Importar gráficos a un documento LaTeX requiere de un paquete añadido que provee comandos y características requeridas para incluir archivos externos de imágenes. El ejemplo de arriba carga el paquete `graphicx` que, entre otros comandos, provee `\includegraphics{...}` para importar gráficos y `\graphicspath{...}` para advertir a LaTeX dónde están localizados los gráficos.
 
@@ -169,7 +169,7 @@ Para usar este paquete, se deberá incluir la línea `\usepackage{graphicx}` en 
 
 En el ejemplo, el comando `\graphicspath{{images/}}` informa a LaTeX que las imágenes están almacenadas en una carpeta llamada `images`, que está contenida en el directorio actual.
 
-<div align="center"><img src="https://github.com/Al3xMR/Guia_LaTeX-Overleaf/blob/main/images/Untitled%201.png" width=500px></div>
+<div align="center"><img src="https://github.com/Al3xMR/Guia_LaTeX-Overleaf/blob/main/images/imagen3.png" width=500px></div>
 
 Notas:
 
@@ -202,7 +202,7 @@ en la página \pageref{fig:mesh1}.
 ```
 
 El ejemplo mostrado produce la siguiente salida:
-<div align="center"><img src="https://github.com/Al3xMR/Guia_LaTeX-Overleaf/blob/main/images/Untitled%202.png" width=500px></div>
+<div align="center"><img src="https://github.com/Al3xMR/Guia_LaTeX-Overleaf/blob/main/images/imagen4.png" width=500px></div>
 
 Hay muchos comandos notorios en este ejemplo:
 
@@ -318,7 +318,7 @@ E=m
 
 La salida de este ejemplo es la siguiente:
 
-<div align="center"><img src="https://github.com/Al3xMR/Guia_LaTeX-Overleaf/blob/main/images/Untitled%203.png" width=500px></div>
+<div align="center"><img src="https://github.com/Al3xMR/Guia_LaTeX-Overleaf/blob/main/images/imagen5.png" width=500px></div>
 
 Para componer matemáticas en modo `display` se puede usar uno de estos pares delimitadores:
 
@@ -345,7 +345,7 @@ Operadores matematicos se prefijan con un backslash como $\sin(\beta)$, $\cos(\a
 
 La salida de este codigo será
 
-<div align="center"><img src="https://github.com/Al3xMR/Guia_LaTeX-Overleaf/blob/main/images/Untitled%204.png" width=500px></div>
+<div align="center"><img src="https://github.com/Al3xMR/Guia_LaTeX-Overleaf/blob/main/images/imagen6.png" width=500px></div>
 
 El siguiente ejemplo usa el entorno `equation*` que es provisto por el paquete `amsmath`, entonces necesitamos añadir la siguiente línea en el preámbulo del documento:
 
@@ -390,7 +390,7 @@ Esto tambien es lo mismo:
 
 Lo que resulta en:
 
-<div align="center"><img src="https://github.com/Al3xMR/Guia_LaTeX-Overleaf/blob/main/images/Untitled%205.png" width=500px></div>
+<div align="center"><img src="https://github.com/Al3xMR/Guia_LaTeX-Overleaf/blob/main/images/imagen7.png" width=500px></div>
 
 # Estructura básica de un documento
 
@@ -412,7 +412,7 @@ Este es un párrafo simple al inicio de un documento. Una breve introducción ac
 
 La salida será la siguiente:
 
-<div align="center"><img src="https://github.com/Al3xMR/Guia_LaTeX-Overleaf/blob/main/images/Untitled%206.png" width=500px></div>
+<div align="center"><img src="https://github.com/Al3xMR/Guia_LaTeX-Overleaf/blob/main/images/imagen8.png" width=500px></div>
 
 ## Párrafos y saltos de línea
 
@@ -438,7 +438,7 @@ Alternativamente, puedo usar el comando \verb|\newline|\newline para empezar una
 
 La salida de este ejemplo será:
 
-<div align="center"><img src="https://github.com/Al3xMR/Guia_LaTeX-Overleaf/blob/main/images/Untitled%207.png" width=500px></div>
+<div align="center"><img src="https://github.com/Al3xMR/Guia_LaTeX-Overleaf/blob/main/images/imagen9.png" width=500px></div>
 
 Note que LaTeX identa automáticamente los párrafos -excepto inmediatamente después de encabezados del documento como `section` o `subsection`- como veremos.
 
@@ -484,7 +484,7 @@ Etiam lobortis facilisissem...
 
 La salida a este código será la siguiente:
 
-<div align="center"><img src="https://github.com/Al3xMR/Guia_LaTeX-Overleaf/blob/main/images/Untitled%208.png" width=500px></div>
+<div align="center"><img src="https://github.com/Al3xMR/Guia_LaTeX-Overleaf/blob/main/images/imagen10.png" width=500px></div>
 
 - Los capítulos se dividen usando el comando `\chapter{name}`
 - Las secciones de un capítulo se dividen usando el comando `\section{sección 1}`
@@ -519,7 +519,7 @@ cell7 & cell8 & cell9
 
 Este ejemplo produce la siguiente salida:
 
-<div align="center"><img src="https://github.com/Al3xMR/Guia_LaTeX-Overleaf/blob/main/images/Untitled%209.png" width=125px></div>
+<div align="center"><img src="https://github.com/Al3xMR/Guia_LaTeX-Overleaf/blob/main/images/imagen11.png" width=125px></div>
 
 El entorno `tabular` es el método predeterminado por LaTeX para crear tablas. Se debe especificar el parámetro para este entorno, en este caso, `{c c c}` que alerta que habrá tres columnas y el texto dentro deberá estar centrado. Tambien se puede usar `r` para alinear a la derecha o `l` para alinearlo a la izquierda. El símbolo de alineación `&` es usado para demarcar las celdas individuales dentro de una fila de la tabla. Para terminar la fila de la tabla, se debe usar el salto de línea `\\`. La tabla está contenida dentro de un entorno `center` para centrarlo dentro del ancho del texto de la página.
 
@@ -546,7 +546,7 @@ En este ejemplo el argumento es `{|c|c|c|}` que declara tres columnas (centradas
 
 Lo que produce la siguiente salida:
 
-<div align="center"><img src="https://github.com/Al3xMR/Guia_LaTeX-Overleaf/blob/main/images/LL30Fig18-plain.svg" width=500px></div>
+<div align="center"><img src="https://github.com/Al3xMR/Guia_LaTeX-Overleaf/blob/main/images/imagen12.svg" width=500px></div>
 
 Aqui hay otro ejemplo:
 
@@ -570,7 +570,7 @@ Aqui hay otro ejemplo:
 
 Lo que produce la siguiente salida:
 
-<div align="center"><img src="https://github.com/Al3xMR/Guia_LaTeX-Overleaf/blob/main/images/Untitled%2010.png" width=500px></div>
+<div align="center"><img src="https://github.com/Al3xMR/Guia_LaTeX-Overleaf/blob/main/images/imagen13.png" width=500px></div>
 
 > Para optimizar el tiempo de creación de tablas, se pueden usar herramientas como [TablesGenerator.com](https://www.tablesgenerator.com/) para exportar código de tabulares
 > 
@@ -602,7 +602,7 @@ leyenda a la tabla y referenciarla.
 
 Esto produce la siguiente salida:
 
-<div align="center"><img src="https://github.com/Al3xMR/Guia_LaTeX-Overleaf/blob/main/images/Untitled%2011.png" width=500px></div>
+<div align="center"><img src="https://github.com/Al3xMR/Guia_LaTeX-Overleaf/blob/main/images/imagen14.png" width=500px></div>
 
 # Añadiendo una Tabla de Contenidos
 
@@ -650,7 +650,7 @@ sollicitudin.  Praesent imperdiet mi necante...
 
 Esto produce la siguiente salida:
 
-<div align="center"><img src="https://github.com/Al3xMR/Guia_LaTeX-Overleaf/blob/main/images/Untitled%2012.png" width=500px></div>
+<div align="center"><img src="https://github.com/Al3xMR/Guia_LaTeX-Overleaf/blob/main/images/imagen15.png" width=500px></div>
 
 Las secciones, subsecciones y capítulos son incluidos automáticamente en la tabla de contenidos. Para añadir entradas manualmente, como una sección no numerada, use el comando `\addcontentsline` como se muestra en el ejemplo.
 
@@ -692,8 +692,8 @@ Esto va a fallar!
 
 Lo que produce los siguiente errores:
 
-<div align="center"><img src="https://github.com/Al3xMR/Guia_LaTeX-Overleaf/blob/main/images/Untitled%2013.png" width=500px></div>
-<div align="center"><img src="https://github.com/Al3xMR/Guia_LaTeX-Overleaf/blob/main/images/Untitled%2014.png" width=500px></div>
+<div align="center"><img src="https://github.com/Al3xMR/Guia_LaTeX-Overleaf/blob/main/images/imagen16.png" width=500px></div>
+<div align="center"><img src="https://github.com/Al3xMR/Guia_LaTeX-Overleaf/blob/main/images/imagen17.png" width=500px></div>
 
 ## Encontrando información sobre paquetes: CTAN
 
